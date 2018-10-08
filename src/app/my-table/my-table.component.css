@@ -1,3 +1,13 @@
 .mat-elevation-z8{
     margin-bottom: 100px;
 }
+
+table.mat-table{
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+img{
+    width: 50%;
+    height: 340px;
+}

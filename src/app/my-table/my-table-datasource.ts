@@ -7,30 +7,31 @@ import { Observable, of as observableOf, merge } from 'rxjs';
 export interface MyTableItem {
   name: string;
   id: number;
+  src: string;
 }
 
 // TODO: replace this with real data from your application
 const EXAMPLE_DATA: MyTableItem[] = [
-  {id: 1, name: 'Hydrogen'},
-  {id: 2, name: 'Helium'},
-  {id: 3, name: 'Lithium'},
-  {id: 4, name: 'Beryllium'},
-  {id: 5, name: 'Boron'},
-  {id: 6, name: 'Carbon'},
-  {id: 7, name: 'Nitrogen'},
-  {id: 8, name: 'Oxygen'},
-  {id: 9, name: 'Fluorine'},
-  {id: 10, name: 'Neon'},
-  {id: 11, name: 'Sodium'},
-  {id: 12, name: 'Magnesium'},
-  {id: 13, name: 'Aluminum'},
-  {id: 14, name: 'Silicon'},
-  {id: 15, name: 'Phosphorus'},
-  {id: 16, name: 'Sulfur'},
-  {id: 17, name: 'Chlorine'},
-  {id: 18, name: 'Argon'},
-  {id: 19, name: 'Potassium'},
-  {id: 20, name: 'Calcium'},
+  {id: 1, name: 'Hydrogen', src: '../../assets/imgs/1.jpg'},
+  {id: 2, name: 'Helium', src: '../../assets/imgs/2.jpg'},
+  {id: 3, name: 'Lithium', src: '../../assets/imgs/3.jpg'},
+  {id: 4, name: 'Beryllium', src: '../../assets/imgs/4.jpg'},
+  {id: 5, name: 'Boron', src: '../../assets/imgs/5.jpeg'},
+  {id: 6, name: 'Carbon', src: '../../assets/imgs/6.jpeg'},
+  {id: 7, name: 'Nitrogen', src: '../../assets/imgs/7.jpeg'},
+  {id: 8, name: 'Oxygen', src: '../../assets/imgs/4.jpg'},
+  {id: 9, name: 'Fluorine', src: '../../assets/imgs/1.jpg'},
+  {id: 10, name: 'Neon', src: '../../assets/imgs/5.jpeg'},
+  {id: 11, name: 'Sodium', src: '../../assets/imgs/3.jpg'},
+  {id: 12, name: 'Magnesium', src: '../../assets/imgs/4.jpg'},
+  {id: 13, name: 'Aluminum', src: '../../assets/imgs/1.jpg'},
+  {id: 14, name: 'Silicon', src: '../../assets/imgs/2.jpg'},
+  {id: 15, name: 'Phosphorus', src: '../../assets/imgs/6.jpeg'},
+  {id: 16, name: 'Sulfur', src: '../../assets/imgs/4.jpg'},
+  {id: 17, name: 'Chlorine', src: '../../assets/imgs/1.jpg'},
+  {id: 18, name: 'Argon', src: '../../assets/imgs/7.jpeg'},
+  {id: 19, name: 'Potassium', src: '../../assets/imgs/3.jpg'},
+  {id: 20, name: 'Calcium', src: '../../assets/imgs/4.jpg'},
 ];
 
 /**
