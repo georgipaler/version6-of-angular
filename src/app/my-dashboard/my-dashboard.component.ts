@@ -13,18 +13,18 @@ export class MyDashboardComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Card 1', cols: 1, rows: 1 },
-          { title: 'Card 2', cols: 1, rows: 1 },
-          { title: 'Card 3', cols: 1, rows: 1 },
-          { title: 'Card 4', cols: 1, rows: 1 }
+          { title: 'Card 1', cols: 1, rows: 1, photo: '../../assets/imgs/1.jpg' },
+          { title: 'Card 2', cols: 1, rows: 1, photo: '../../assets/imgs/2.jpg'},
+          { title: 'Card 3', cols: 1, rows: 1, photo: '../../assets/imgs/3.jpg' },
+          { title: 'Card 4', cols: 1, rows: 1, photo: '../../assets/imgs/4.jpg' }
         ];
       }
 
       return [
-        { title: 'Card 1', cols: 2, rows: 1 },
-        { title: 'Card 2', cols: 1, rows: 1 },
-        { title: 'Card 3', cols: 1, rows: 2 },
-        { title: 'Card 4', cols: 1, rows: 1 }
+        { title: 'Card 1', cols: 2, rows: 1, photo: '../../assets/imgs/3.jpg' },
+        { title: 'Card 2', cols: 1, rows: 1, photo: '../../assets/imgs/2.jpg'},
+        { title: 'Card 3', cols: 1, rows: 2, photo: '../../assets/imgs/p.jpeg' },
+        { title: 'Card 4', cols: 1, rows: 1, photo: '../../assets/imgs/4.jpg' }
       ];
     })
   );
